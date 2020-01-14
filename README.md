@@ -28,9 +28,10 @@ wlan.ssid == "test" || eapol
 
 To test, upload this sketch to an D1 Mini after changing the Wi-Fi channel to the one you want to monitor.  
 Record Wi-Fi traffic on that channel in Wireshark with the display filter above.  
-Save the traffic as a .PCAP file, run aircrack-ng with a wordlist to crack (-w argument)
+Save the traffic as a .PCAP file, run aircrack-ng with a wordlist to crack (-w argument).   
 If the wordlist contains the password (hint: german for entrance) aircrack-ng should crack the password
 
+![alt text](https://pbs.twimg.com/media/EOMEzfbUUAAXM1M?format=png&name=medium "Cracked!")
 
 
 
